@@ -1,4 +1,4 @@
-package com.jsx.controller;
+﻿package com.jsx.controller;
 
 import java.util.List;
 import javax.servlet.http.HttpServletRequest;
@@ -58,7 +58,7 @@ public class UserController
         } catch (Exception e)
         {
             e.printStackTrace();
-            request.setAttribute("InfoMessage", "信息载入失败！具体异常信息：" + e.getMessage());
+            request.setAttribute("InfoMessage", "信息载入怎么就失败了呢！具体异常信息：" + e.getMessage());
             return "result";
         }
     }
